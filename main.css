@@ -101,41 +101,49 @@ body {
 	vertical-align: top;
 	padding-left: 40px;
 	width: 60%;
-	border: 3px solid black;
+	border: 3px solid red;
 }
 
 .head3{
-	font-size: 60px;
-	padding-top: 40px;
+	font-size: 70px;
+	padding-top: 60px;
 	padding-left: 20px;
 	padding-bottom: 40px;
 	padding-right: 40px;
 }
 .p1 {
+	font-family: 'Asap', sans-serif;
 	font-size: 17px;
 	padding: 20px;
 	word-spacing: 2px;
+	line-height: 20px;
 }
 .p2 {
+	font-family: 'Asap', sans-serif;
 	font-size: 17px;
 	padding: 20px;
+	line-height: 20px;
 	word-spacing: 2px;
 }
 .p3 {
+	font-family: 'Asap', sans-serif;
 	font-size: 17px;
 	padding: 20px;
 	word-spacing: 2px;
+	line-height: 20px;
 }
 .p4 {
+	font-family: 'Asap', sans-serif;
 	font-size: 17px;
 	padding: 20px;
 	word-spacing: 2px;
+	line-height: 20px;
 }
 .rad {
 	word-spacing: 5px;
 	padding-left: 60px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 	font-size: 30px;
 
 }
@@ -149,11 +157,18 @@ body {
 	padding: 30px;
 }
 
+.side-pic {
+	margin-bottom: 0;
+	display: center;
+	height: 300px;
+	width: 300px;
+}
+
 .circle-img {
 	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
 	border-radius: 50px;
 	border: 1px solid black;
-	height: 50px;
+	height: 40px;
 	width: 50px;
 	padding: 50px;
 }
@@ -173,6 +188,7 @@ body {
 	height: 100%;
 }
 .words {
+	font-family: 'Asap', sans-serif;
 	word-spacing: 3px;
 	font-size: 12px;
 }
@@ -183,6 +199,7 @@ body {
 }
 
 .sidebar {
+	padding-top: 100px;
 	width: 25%;
  display: inline-block;
  float: right;
@@ -199,4 +216,48 @@ body {
 	padding: 20px;
 	color: grey
 }
+.foot {
+	text-align: center;
+	font-size: 60px;
+	color: blue;
+	padding: 50px;
+}
 
+.footer {
+	display: inline-block;
+}
+
+.pic {
+	background-size: cover;
+	float: left;
+	height: 330px;
+	position: relative;
+	width: 25%;
+
+
+}
+
+.pic2 {
+	background-image: url(http://www.activebeergeek.com/wp-content/uploads/2012/02/Beer-paddle.jpg);
+	overflow: hidden;
+	background-size: cover;
+	height: 300px;
+	width: 25%;
+}
+
+.subfoot {
+	border: 2px solid red
+}
+
+.subfoot span{
+	float: right;
+	padding-bottom: 40px;
+
+}
+
+
+
+
+
+
+	
