@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'oswald', 'serif';
+}	
+
+.header {
+	height: 524px;
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/1/16/Wea00816.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(32, 108, 177, 0.68);
+}
+
+.nav {
+	position: relative;
+	z-index: 1;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.nav2 {
+	float: right;
+	word-spacing: 15px;
+}
+.title {
+	position: relative;
+	z-index: 1;
+	font-size: 120px;
+	color: white;
+	text-align: center;
+	padding-top: 160px;	
+}
+.title2 {
+	text-align: center;
+}
+
+.main {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 40px;
+	width: 60%;
+	border: 3px solid black;
+}
+
+.head3{
+	font-size: 60px;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+}
+.p1 {
+	font-size: 17px;
+	padding: 20px;
+	word-spacing: 2px;
+}
+.p2 {
+	font-size: 17px;
+	padding: 20px;
+	word-spacing: 2px;
+}
+.p3 {
+	font-size: 17px;
+	padding: 20px;
+	word-spacing: 2px;
+}
+.p4 {
+	font-size: 17px;
+	padding: 20px;
+	word-spacing: 2px;
+}
+.rad {
+	word-spacing: 5px;
+	padding-left: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 30px;
+
+}
+.wrapper {	
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.side {
+	color: blue;
+	padding: 30px;
+}
+
+.circle-img {
+	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
+	border-radius: 50px;
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;
+	padding: 50px;
+}
+.circle-img2 {
+	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
+	border-radius: 20px;
+	border: 1px solid black;
+	height: 20px;
+	width: 20px;
+}
+
+.list {
+	display: inline-block;
+}
+
+#main {
+	height: 100%;
+}
+.words {
+	word-spacing: 3px;
+	font-size: 12px;
+}
+
+.section {
+	width: 74%;
+ display: inline-block;
+}
+
+.sidebar {
+	width: 25%;
+ display: inline-block;
+ float: right;
+}
+
+.anne{
+	padding-left: 80px;
+	color: blue
+}
+
+.tweet {
+	word-spacing: 8px;
+	font: 5px;
+	padding: 20px;
+	color: grey
+}
+
