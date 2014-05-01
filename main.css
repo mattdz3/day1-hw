@@ -57,6 +57,10 @@ body {
 	font-family: 'oswald', 'serif';
 }	
 
+h1 {
+	letter-spacing: 1px;
+}
+
 .header {
 	height: 524px;
 	background-image: url("http://upload.wikimedia.org/wikipedia/commons/1/16/Wea00816.jpg");
@@ -87,10 +91,11 @@ body {
 .title {
 	position: relative;
 	z-index: 1;
-	font-size: 120px;
+	font-size: 87px;
 	color: white;
 	text-align: center;
-	padding-top: 160px;	
+	padding-top: 164px;
+	letter-spacing: 10px;	
 }
 .title2 {
 	text-align: center;
@@ -100,17 +105,24 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 40px;
-	width: 60%;
-	border: 3px solid red;
+	width: 60px;
 }
 
 .head3{
 	font-size: 70px;
-	padding-top: 60px;
+	padding-top: 30px;
 	padding-left: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	padding-right: 40px;
+	color: blue;
 }
+
+.name {
+	display: center;
+	padding-left: 40px;
+	padding-top: 40px;	
+}
+
 .p1 {
 	font-family: 'Asap', sans-serif;
 	font-size: 17px;
@@ -145,6 +157,7 @@ body {
 	padding-top: 45px;
 	padding-bottom: 45px;
 	font-size: 30px;
+	color: blue;
 
 }
 .wrapper {	
@@ -152,17 +165,7 @@ body {
 	width: 1000px;
 }
 
-.side {
-	color: blue;
-	padding: 30px;
-}
 
-.side-pic {
-	margin-bottom: 0;
-	display: center;
-	height: 300px;
-	width: 300px;
-}
 
 .circle-img {
 	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
@@ -171,11 +174,12 @@ body {
 	height: 40px;
 	width: 50px;
 	padding: 50px;
+	background-size: cover;
+
 }
 .circle-img2 {
 	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
-	border-radius: 20px;
-	border: 1px solid black;
+	border-radius: 50px;
 	height: 20px;
 	width: 20px;
 }
@@ -187,22 +191,38 @@ body {
 #main {
 	height: 100%;
 }
+
+.side-head {
+	color: blue;
+	font-size: 18px;
+	padding-top: 62px;
+	padding-bottom: 10px;
+}
+
+.side-pic {
+	margin-bottom: 0;
+	height: 300px;
+	width: 280px;
+	background-size: cover;
+}
+
 .words {
 	font-family: 'Asap', sans-serif;
-	word-spacing: 3px;
-	font-size: 12px;
+	word-spacing: 5px;
+	line-height: 23px;
+	font-size: 14px;
 }
 
 .section {
 	width: 74%;
- display: inline-block;
+ 	display: inline-block;
 }
 
 .sidebar {
 	padding-top: 100px;
+	padding-bottom: 100px;
 	width: 25%;
- display: inline-block;
- float: right;
+ 	display: inline-block;
 }
 
 .anne{
@@ -216,42 +236,43 @@ body {
 	padding: 20px;
 	color: grey
 }
+
+.ad {
+	text-align: right; 
+	font-size: 10px;
+	word-spacing: 3px;
+}
+
 .foot {
 	text-align: center;
 	font-size: 60px;
 	color: blue;
 	padding: 50px;
 }
-
 .footer {
+}
+img {
 	display: inline-block;
-}
-
-.pic {
-	background-size: cover;
-	float: left;
 	height: 330px;
-	position: relative;
 	width: 25%;
-
-
-}
-
-.pic2 {
-	background-image: url(http://www.activebeergeek.com/wp-content/uploads/2012/02/Beer-paddle.jpg);
-	overflow: hidden;
-	background-size: cover;
-	height: 300px;
-	width: 25%;
+	float: left;
+	
 }
 
 .subfoot {
-	border: 2px solid red
+	padding: 50px;
+	display: block;
+	background-color: blue;
 }
 
 .subfoot span{
+	padding: 25px;
+
+}
+.subfoot p{
 	float: right;
-	padding-bottom: 40px;
+	padding-top: 25px;
+	word-spacing: 4px;
 
 }
 
