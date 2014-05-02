@@ -196,7 +196,6 @@ h1 {
 
 .sidebar {
 	padding-top: 100px;
-	padding-bottom: 80px;
 	width: 25%;
  	display: inline-block;
 }
@@ -206,7 +205,7 @@ h1 {
 	border-radius: 50px;
 	height: 40px;
 	width: 50px;
-	padding: 50px;
+	padding: 40px;
 	background-size: cover;
 }
 
@@ -219,13 +218,13 @@ h1 {
 	word-spacing: 8px;
 	font: 5px;
 	padding: 20px;
-	color: grey
+	color: #7C7F76;
 }
 
 .side-pic {
 	margin-bottom: 0;
 	height: 300px;
-	width: 280px;
+	width: 250px;
 	background-size: cover;
 }
 
@@ -272,26 +271,26 @@ h1 {
 
 .subfoot {
 	margin: 0;
-	padding: 40px;
+	padding: 45px;
+	padding-left: 30px;
 	display: block;
 	background-color: #1D395E;
 }
 
 .subfoot span{
 	padding: 25px;
-	color: grey;
+	color: #7C7F76;
 	font-size:11px;
 	letter-spacing: 1px;
 
 }
 .subfoot p{
 	float: right;
-	padding-top: 25px;
+	padding-top: 30	px;
+	font-size: 15px;
 	word-spacing: 4px;
-	color: grey;
+	color: #7C7F76;
 }
-
-
 
 .footer {
 	background-image: url(http://static2.businessinsider.com/image/4cab99877f8b9aa3417d0000/surfer-kelly-slater-gets-three-percent-stake-in-quiksilver.jpg);
@@ -328,3 +327,14 @@ h1 {
 	height: 330px;
 	width: 25%;
 }
+
+.pic-text{
+	position: relative;
+	margin-top: 0;
+	z-index: 1;
+
+}
+
+
+
+
