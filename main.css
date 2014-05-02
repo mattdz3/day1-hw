@@ -271,14 +271,14 @@ h1 {
 
 .subfoot {
 	margin: 0;
-	padding: 45px;
+	padding: 80px;
 	padding-left: 30px;
 	display: block;
 	background-color: #1D395E;
 }
 
 .subfoot span{
-	padding: 25px;
+	padding-top: 25px;
 	color: #7C7F76;
 	font-size:11px;
 	letter-spacing: 1px;
@@ -295,25 +295,30 @@ h1 {
 .footer {
 	background-image: url(http://static2.businessinsider.com/image/4cab99877f8b9aa3417d0000/surfer-kelly-slater-gets-three-percent-stake-in-quiksilver.jpg);
 	margin: 0;
+	float: left;
 	display: inline-block;
 	background-size: cover;
 	height: 330px;
 	width: 25%;
 }
 
+
 .footer2 {
 	background-image: url(http://www.activebeergeek.com/wp-content/uploads/2012/02/Beer-paddle.jpg);
 	margin: 0;
+	float: left;
 	display: inline-block;
 	background-size: cover;
 	height: 330px;
-	width: 24%;
+	width: 25%;
+
 }
 
 .footer3 {
 	background-image: url(http://www.camelcitydispatch.com/wp-content/uploads/2014/01/zach_galifianakis_wallpaper.jpg);
 	display: inline-block;
 	margin: 0;
+	float: left;
 	background-size: cover;
 	height: 330px;
 	width: 25%;
@@ -323,16 +328,32 @@ h1 {
 	background-image: url(https://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/06/Liquors-2_jpg_800x1000_q100.jpg);
 	display: inline-block;
 	margin: 0;
+	float: left;
 	background-size: cover;
 	height: 330px;
 	width: 25%;
 }
 
 .pic-text{
-	position: relative;
-	margin-top: 0;
-	z-index: 1;
+	color: #1D395E;
+	float: left;
+	font-size: 30px;
+	padding-top: 260px;
+	text-align: bottom;
+}
 
+.pic-text:hover {
+	color: white;
+}
+
+.overlay-image {
+	color: rgba(32, 108, 177, 0.68);
+	position: relative;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
 }
 
 
