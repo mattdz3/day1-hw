@@ -152,14 +152,17 @@ h1 {
 .p1 {
 	font-family: 'Asap', sans-serif;
 	font-size: 17px;
+	color: #7C7F76;
 	padding: 20px;
 	word-spacing: 2px;
 	line-height: 20px;
+
 }
 
 .p2 {
 	font-family: 'Asap', sans-serif;
 	font-size: 17px;
+	color: #7C7F76;
 	padding: 20px;
 	line-height: 20px;
 	word-spacing: 2px;
@@ -178,6 +181,7 @@ h1 {
 	font-family: 'Asap', sans-serif;
 	font-size: 17px;
 	padding: 20px;
+	color: #7C7F76;
 	word-spacing: 2px;
 	line-height: 20px;
 }
@@ -185,6 +189,7 @@ h1 {
 	font-family: 'Asap', sans-serif;
 	font-size: 17px;
 	padding: 20px;
+	color: #7C7F76;
 	word-spacing: 2px;
 	line-height: 20px;
 }
@@ -242,6 +247,7 @@ h1 {
 	word-spacing: 5px;
 	line-height: 23px;
 	font-size: 14px;
+	color: #7C7F76;
 }
 
 .foot {
@@ -266,7 +272,7 @@ h1 {
 
 .subfoot {
 	margin: 0;
-	padding: 50px;
+	padding: 40px;
 	display: block;
 	background-color: #1D395E;
 }
@@ -287,8 +293,38 @@ h1 {
 
 
 
+.footer {
+	background-image: url(http://static2.businessinsider.com/image/4cab99877f8b9aa3417d0000/surfer-kelly-slater-gets-three-percent-stake-in-quiksilver.jpg);
+	margin: 0;
+	display: inline-block;
+	background-size: cover;
+	height: 330px;
+	width: 25%;
+}
 
+.footer2 {
+	background-image: url(http://www.activebeergeek.com/wp-content/uploads/2012/02/Beer-paddle.jpg);
+	margin: 0;
+	display: inline-block;
+	background-size: cover;
+	height: 330px;
+	width: 24%;
+}
 
+.footer3 {
+	background-image: url(http://www.camelcitydispatch.com/wp-content/uploads/2014/01/zach_galifianakis_wallpaper.jpg);
+	display: inline-block;
+	margin: 0;
+	background-size: cover;
+	height: 330px;
+	width: 25%;
+}
 
-
-	
+.footer4 {
+	background-image: url(https://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/06/Liquors-2_jpg_800x1000_q100.jpg);
+	display: inline-block;
+	margin: 0;
+	background-size: cover;
+	height: 330px;
+	width: 25%;
+}
