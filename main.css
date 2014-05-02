@@ -136,6 +136,7 @@ h1 {
 
 .circle-img2 {
 	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
+	display: inline-block;
 	border-radius: 50px;
 	height: 20px;
 	width: 20px;
@@ -144,7 +145,8 @@ h1 {
 }
 
 .name {
-	padding-left: 40px;
+	font-family: 'asap', 'serif';
+	padding-left: 4px;
 	padding-top: 40px;
 	font-size: 13px;	
 }
@@ -171,9 +173,10 @@ h1 {
 .rad {
 	word-spacing: 5px;
 	padding-left: 60px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	font-size: 30px;
+	font-family: 'asap', 'serif';
 	color: #1D395E;
 }
 
@@ -183,7 +186,7 @@ h1 {
 	padding: 20px;
 	color: #7C7F76;
 	word-spacing: 2px;
-	line-height: 20px;
+	line-height: 25px;
 }
 .p4 {
 	font-family: 'Asap', sans-serif;
@@ -191,7 +194,7 @@ h1 {
 	padding: 20px;
 	color: #7C7F76;
 	word-spacing: 2px;
-	line-height: 20px;
+	line-height: 25px;
 }
 
 .sidebar {
@@ -202,35 +205,46 @@ h1 {
 
 .circle-img {
 	background: url(https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c49.35.442.442/s160x160/405737_292174207585504_676335323_n.jpg);
+	display: inline-block;
 	border-radius: 50px;
-	height: 40px;
-	width: 50px;
+	height: 50px;
+	width: 55px;
 	padding: 40px;
+	padding-left: 40px;
 	background-size: cover;
+	margin-left: 80px;
 }
 
-.anne{
+.name2{
+	padding-top: 15px;
 	padding-left: 80px;
+	font-size: 16px;
+	font-family: 'asap', 'serif';
 	color: #1D395E;
 }
 
-.tweet {
-	word-spacing: 8px;
-	font: 5px;
-	padding: 20px;
+.social {
+	padding-top: 5px;
+	word-spacing: 4px;
+	font-size: 14px;
+	font-family: 'asap', 'serif';
+	padding-left: 22px;
+	padding-bottom: 30px;
 	color: #7C7F76;
 }
 
 .side-pic {
 	margin-bottom: 0;
-	height: 300px;
+	padding-top: 25px;
+	height: 318px;
 	width: 250px;
 	background-size: cover;
 }
 
 .ad {
 	text-align: right; 
-	font-size: 10px;
+	font-size: 14px;
+	font-family: 'asap', 'serif';
 	word-spacing: 3px;
 }
 
@@ -269,31 +283,11 @@ h1 {
 	float: left;
 }
 
-.subfoot {
-	margin: 0;
-	padding: 80px;
-	padding-left: 30px;
-	display: block;
-	background-color: #1D395E;
-}
 
-.subfoot span{
-	padding-top: 25px;
-	color: #7C7F76;
-	font-size:11px;
-	letter-spacing: 1px;
-
-}
-.subfoot p{
-	float: right;
-	padding-top: 30	px;
-	font-size: 15px;
-	word-spacing: 4px;
-	color: #7C7F76;
-}
 
 .footer {
 	background-image: url(http://static2.businessinsider.com/image/4cab99877f8b9aa3417d0000/surfer-kelly-slater-gets-three-percent-stake-in-quiksilver.jpg);
+	position: relative;
 	margin: 0;
 	float: left;
 	display: inline-block;
@@ -305,6 +299,7 @@ h1 {
 
 .footer2 {
 	background-image: url(http://www.activebeergeek.com/wp-content/uploads/2012/02/Beer-paddle.jpg);
+	position: relative;
 	margin: 0;
 	float: left;
 	display: inline-block;
@@ -316,6 +311,7 @@ h1 {
 
 .footer3 {
 	background-image: url(http://www.camelcitydispatch.com/wp-content/uploads/2014/01/zach_galifianakis_wallpaper.jpg);
+	position: relative;
 	display: inline-block;
 	margin: 0;
 	float: left;
@@ -327,6 +323,7 @@ h1 {
 .footer4 {
 	background-image: url(https://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/06/Liquors-2_jpg_800x1000_q100.jpg);
 	display: inline-block;
+	position: relative;
 	margin: 0;
 	float: left;
 	background-size: cover;
@@ -337,9 +334,8 @@ h1 {
 .pic-text{
 	color: #1D395E;
 	float: left;
-	font-size: 30px;
+	font-size: 32px;
 	padding-top: 260px;
-	text-align: bottom;
 }
 
 .pic-text:hover {
@@ -349,13 +345,39 @@ h1 {
 .overlay-image {
 	color: rgba(32, 108, 177, 0.68);
 	position: relative;
+	height: 330px;
+	width: 100%;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	z-index: 1;
 }
 
+.subfoot {
+	margin: 0;
+	padding: 80px;
+	padding-left: 30px;
+	display: block;
+	background-color: #1D395E;
+}
 
+.subfoot span{
+	padding-left: 180px;
+	font-family: 'asap', 'serif';
+	padding-top: 30px;
+	color: #7C7F76;
+	font-size:11px;
+	letter-spacing: 1px;
+
+}
+.subfoot p{
+	float: right;
+	font-family: 'asap','serif';
+	padding-top: 30px;
+	padding-right: 10px;
+	font-size: 15px;
+	display: inline-block;
+	color: #7C7F76;
+}
 
 
